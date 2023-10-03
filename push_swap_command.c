@@ -43,7 +43,7 @@ static void	reverse_rotate_both(t_stack_node **a,
 }
 
 /*
- * Conclude the rotation of the stacks 
+ * Conclude the rotation of the stacks
 */
 void	finish_rotation(t_stack_node **stack,
 							t_stack_node *top_node,
@@ -64,7 +64,7 @@ void	finish_rotation(t_stack_node **stack,
 				rb(stack, false);
 			else
 				rrb(stack, false);
-		}	
+		}
 	}
 }
 
@@ -91,7 +91,7 @@ static void	move_nodes(t_stack_node **a, t_stack_node **b)
 }
 
 /*
- * ~Push all nodes in B 
+ * ~Push all nodes in B
  * ~For every configuration choose the "cheapest_node"
  * ~Push everything back in A in order
 */
